@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box; /* Ensures elements include padding/borders in their width */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #eac100;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #0b8457;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center form horizontally */
+    align-items: center; /* Center form vertically */
+    flex-grow: 1; /* Makes main take up remaining space */
+}
+
+.note{
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    background-color: #0b8457 ;
+    color: aliceblue;
+}
+
+.Admission{
+    color: red;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    color: #0b8457;
+    background-color: #eac100;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 7pt;
+}

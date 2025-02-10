@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box; /* Ensures elements include padding/borders in their width */
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #eac100;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #0b8457;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center; /* Center form horizontally */
+    align-items: center; /* Center form vertically */
+    flex-grow: 1; /* Makes main take up remaining space */
+}
+
+form {
+    padding: 2rem;
+    width: 21rem;
+    background: #dee1ec;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 2rem;
+}
+
+input {
+    padding-left: 10px;
+    width: 100%; /* Ensure full width */
+    height: 35px;
+    border: 0.5px solid;
+    margin-top: 10px;
+}
+
+#identifiant, 
+#password, 
+.Validate-button {
+    width: 100%; /* Ensure equal width */
+    height: 35px;
+    margin-bottom: 1rem; /* Spacing */
+}
+
+.Validate-button {
+    background-color: white;
+    border: 0.5px solid;
+    cursor: pointer;
+}
+
+.Validate-button:hover {
+    color: #dee1ec;
+    background-color: #10316b;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    color: #0b8457;
+    background-color: #eac100;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 7pt;
+}
